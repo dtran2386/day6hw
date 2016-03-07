@@ -1,0 +1,170 @@
+$font-stack: 'Open Sans Condensed', sans-serif;
+
+
+body {
+    font: 100% $font-stack;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+    a{
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: inherit;
+    }
+    
+    a:hover {
+        color: darkslateblue;
+    }
+    
+    list-style-image: none;
+}
+.finePrint {
+    background-color: #f4f4f4;
+    padding-left: 12.2%;
+    color: grey;
+    display: block;
+    float: left;
+    width: 100%;
+        #gravity {
+    border-bottom: 2px dotted lightgrey;
+    color: grey;
+}
+}
+    
+.header2 {
+    border: 1px solid white;
+    height: 125px;
+    width: 100%;
+    padding-left: 10%;
+    border-bottom: 1px solid lightgrey;
+        div {
+    display: inline-block;
+    padding-left: 3.7%;
+    font-size: 28px;
+    margin: 3.2% 0;
+    vertical-align: top;
+    color: grey;
+}
+        .input {
+    height: 200px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+}
+        #lcart {
+    position: absolute;
+    padding-top: 3.5%;
+    padding-left: 14%;
+}
+        #cart {
+    height: 41px;
+    width: 94px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 12%;
+}
+       #search {
+    border: 1px solid lightgrey;
+    height: 28px;
+    width: 152px;
+    box-shadow: #f4f4f4 0 0 0 4px;
+}         
+}
+
+.ties {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #F4F4F4;
+    font-size: 20px;
+        .tie {
+    text-align: center;
+}
+}
+
+.headline {
+    text-align: center;
+    font-size: 60px;
+    background-color: #F4F4F4;
+    height: 150px;
+    padding-top: 5%;
+    border-bottom: 1px solid lightgrey;
+}
+
+div.three {
+    width: 100%;
+    height: 400px;
+    margin: 4% 12%;
+        div{
+    display: inline-block;
+    padding: 0 .5%;
+}
+        .square {
+    width: 340px;
+    height: 200px;
+}
+
+        .acc {
+    position: absolute;
+    padding: .05% 0 0 17.65%;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+        #note {
+    text-align: center;
+    width: 75%;
+    height: 200px;
+    font-size: 36px;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    font-weight: 200;
+}
+        #story {
+    font-size: 18px;
+}
+}
+
+.bottom {
+    display: inline-block;
+    padding-left: 9.3%;
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid lightgrey;
+        div ul {
+    display: inline-block;
+    width: 233px;
+    list-style-type: none;
+}
+        ul img {
+    width: 233px;
+    height: 137px;
+}
+        .line {
+    display: flex;
+    flex-direction: row;
+}
+        .upper {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+        #email {
+    border: 3px solid #f4f4f4;
+    margin: 1% 0;
+}
+        #subscribe {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 3px;
+    margin: 3% 0;
+    color: white;
+}
+}
