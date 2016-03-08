@@ -1,0 +1,22 @@
+$bg-color: #F4F4F4;
+
+@mixin bg {
+    background-color: $bg-color;
+}
+
+@import '../bourbon/bourbon';
+@import '../neat/neat';
+@import 'header';
+@import 'body';
+@import 'footer';
+
+@media (max-width: 750px) {
+    header .header, .header2 {
+        background-color: aqua;
+    }
+    
+    .ties {
+        display: block;
+        width: 100%;
+    }
+}

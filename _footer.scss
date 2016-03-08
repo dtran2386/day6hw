@@ -1,0 +1,53 @@
+
+
+footer {
+    .contact {
+    border: 1px solid #A0AEC1;
+    background-color: #A0AEC1;
+    color: white;
+    border-radius: 3px;
+    width: 260px;
+    height: 145px;
+    font-size: 18px;
+    position: absolute;
+    margin: 1% 0 0 65%;
+    padding: 0 1%;
+        p {
+    margin: 0 0;
+}       
+}
+    
+    #contact {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+    margin: 7% 0 0 76.5%;
+    font-size: 20px;
+}
+    
+    .footer {
+    width: 100%;
+    @include bg;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid lightgrey;
+        #shop {
+    padding-left: 12.2%;
+    width: 90px;
+}
+       .upper2 {
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 13px;
+}
+
+        .foot {
+    width: 100px;
+    margin-left: 0;
+} 
+}
+}
